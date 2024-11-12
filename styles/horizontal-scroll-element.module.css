@@ -13,6 +13,30 @@
     transition: opacity cubic-bezier(0.02, 0.38, 0.22, 0.98) 0.25s;
 }
 
+.gradientRight {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    width: 5px;
+
+    /* background: linear-gradient(90deg, #ffffff00 0%, var(--background) 100%); */
+
+    z-index: -1;
+}
+
+.gradientLeft {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 5px;
+
+    /* background: linear-gradient(90deg, var(--background) 0%, #ffffff00 100%); */
+
+    z-index: -1;
+}
+
 .scrollButton img {
     transition: opacity 0.15s, transform 0.25s;
 }
@@ -50,6 +74,8 @@
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
+
+    border-radius: 25px;
 }
 
 .scrollElementHolder::-webkit-scrollbar { 
@@ -66,4 +92,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }

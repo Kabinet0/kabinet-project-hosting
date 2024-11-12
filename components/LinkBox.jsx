@@ -2,9 +2,11 @@ import styles from "@/styles/link-box.module.css"
 import Link from "next/link";
 import Image from "next/image";
 
-function LinkBox({title_text, href = "../", categoryColor, gradient_angle = 15, minWidth = 280, height = 484, animDelay = 0}) {
+function LinkBox({title_text, href = "../", categoryColor, gradient_angle = 15, minWidth = 280, height = 484, animDelay = 0, slideRight = false}) {
+    const animClass = slideRight ? styles.button_anim_2 : styles.button_anim_1;
+    
     return (
-        <div className={styles.button_div} style = {{animationDelay: animDelay + "s", minWidth: minWidth + "px", height: height + "px", background: "linear-gradient("+ gradient_angle + "deg, " + categoryColor + " 0%, " + "var(--c0)" + " 100%)"}}>
+        <div className={[styles.button_div, animClass].join(" ")} style = {{animationDelay: animDelay + "s", minWidth: minWidth + "px", height: height + "px", background: "linear-gradient("+ gradient_angle + "deg, " + categoryColor + " 0%, " + "var(--c0)" + " 100%)"}}>
             {/* <Image 
                 src = {banner_image} 
                 onLoad={(e) => e.target.style.opacity = "1"}

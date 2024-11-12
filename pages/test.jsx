@@ -26,6 +26,10 @@ export default function Test() {
 
               <div className="spacer" />
 
+              <div className="centerContainer">
+                <div className="lineSpacer" />
+              </div>
+
               {/* <div className="centerContainer">
                 <Image 
                   src={Raptor} 
@@ -52,6 +56,7 @@ export default function Test() {
                   categoryColor={"var(--c1)"} 
                   gradient_angle={90} 
                   height={100}
+                  slideRight={true}
                 />             
               </div>
 
@@ -71,6 +76,7 @@ export default function Test() {
                   categoryColor={"var(--c1)"} 
                   gradient_angle={90} 
                   height={100}
+                  slideRight={true}
                 />             
               </div>
 

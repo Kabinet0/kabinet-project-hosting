@@ -92,9 +92,11 @@ function HorizontalScrollElement({children, button_color}) {
                 <div className={styles.scrollButtonHolder}>
                     <button type="button" onClick={leftButton} className={styles.scrollButton} style={arrowLeftEnabled ? {opacity:"1", backgroundColor: button_color } : {backgroundColor: button_color}}>
                         <Image alt={"Horizontal Scroll Left"} src="/svg_assets/arrow.svg" width={20} height={20} className={styles.arrow_image_left}></Image>    
+                        <div className={styles.gradientLeft} /> 
                     </button>  
                     <button type="button" onClick={rightButton} className={styles.scrollButton} style={arrowRightEnabled ? {opacity:"1", backgroundColor: button_color } : {backgroundColor: button_color}}>
-                        <Image alt={"Horizontal Scroll Right"} src="/svg_assets/arrow.svg" width={20} height={20} className={styles.arrow_image_right}></Image>    
+                        <Image alt={"Horizontal Scroll Right"} src="/svg_assets/arrow.svg" width={20} height={20} className={styles.arrow_image_right}></Image>   
+                        <div className={styles.gradientRight} /> 
                     </button>   
                 </div>
                 {children}

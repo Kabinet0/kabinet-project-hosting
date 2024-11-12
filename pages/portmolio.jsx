@@ -19,7 +19,7 @@ export default function Index() {
         <div className="pageContent">
           <div className="contentContainer">
             <h1 className="titleText">Matthew Kabin's<br/>Portmolio</h1>
-            <h2 className="spaceTitle"><span>Theme |</span> SPACE</h2>
+            <h2 className="spaceTitle">Theme <span>|</span> SPACE</h2>
             
             <div className="spacer" />
 

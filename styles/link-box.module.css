@@ -9,17 +9,32 @@
     }
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 .button_div {
     min-width: 280px;
     height: 484px;
     border-radius: 25px;
     position: relative;
     overflow: hidden;
+}
 
+.button_anim_1 {
     opacity: 0%;
     transform: translateY(120px);
     animation: 0.5s cubic-bezier(0.02, 0.38, 0.22, 0.98) 0s 1 fadeInMoveUp forwards;
-    
+}
+
+.button_anim_2 {
+    opacity: 0%;
+    animation: 0.5s cubic-bezier(0.02, 0.38, 0.22, 0.98) 0s 1 fadeIn forwards;
 }
 
 .button_title {
