@@ -11,7 +11,7 @@ export default function Test() {
         <title>Portmolio Test</title>
         <meta name="description" content="Matthew's portmolio project" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" sizes="76x76" href="static/favicon.ico" />
       </Head>
       <div>
         <NavBar 
