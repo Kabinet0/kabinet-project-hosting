@@ -43,6 +43,13 @@ export default function Applications() {
                 />
               </div>
 
+              <div className="largeParagraphContainer">
+              <div className="smallSpacer" />
+                <p className="largeParagraph" style={{textIndent:"unset"}}>
+                  Figure 1. A Raptor 3 methalox engine rendered in Fusion 360.
+                </p>
+              </div>
+
               <div className="spacer" />
 
               <div className="largeParagraphContainer">

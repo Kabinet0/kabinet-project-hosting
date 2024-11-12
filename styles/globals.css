@@ -120,13 +120,16 @@ p {
   left: 0;
   width: 100%;
 
-  overflow: visible;
+  overflow: clip;
   min-height: calc(100vh - 65px);
 }
 
 .contentContainer {
   margin-inline:calc(100vw / 5);
   margin-top:100px;
+
+  z-index: 2;
+  position: relative;
 }
 
 .centerContainer {
@@ -209,4 +212,18 @@ p {
 
 .paragraphHeader span {
   color:var(--c1);
+}
+
+.stars {
+  position: absolute;
+
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+
 }

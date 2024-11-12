@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import NavBar from "@/components/NavBar";
 import HorizontalScrollElement from "@/components/HorizontalScrollElement";
 import LinkBox from "@/components/LinkBox";
+import Stars from "@/public/images/Illustration3.png"
 
 export default function Index() {
   return (
@@ -17,9 +18,11 @@ export default function Index() {
       <div id="pageBackground">
       <NavBar text="PORTMOLIO"/>
         <div className="pageContent">
+        {/* <Image src={Stars} className="stars"></Image> */}
           <div className="contentContainer">
+            
             <h1 className="titleText">Matthew Kabin's<br/>Portmolio</h1>
-            <h2 className="spaceTitle">Theme <span>|</span> SPACE</h2>
+            <h2 className="spaceTitle">Theme | SPACE</h2>
             
             <div className="spacer" />
 

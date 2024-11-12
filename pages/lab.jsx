@@ -44,6 +44,13 @@ export default function Lab() {
                 />
               </div>
 
+              <div className="largeParagraphContainer">
+              <div className="smallSpacer" />
+                <p className="largeParagraph" style={{textIndent:"unset"}}>
+                  Figure 1. The lab setup on the second day of the experiment.
+                </p>
+              </div>
+
               <div className="spacer" />
 
               <div className="largeParagraphContainer">
