@@ -7,7 +7,7 @@ const NavBar = ({ extra_additions, text_color = "#FFFFFF", center_on_mobile = fa
     return (
         <header className={navbar.header}>
             <div className={[navbar.header_logo_button, logoPositionClass].join(" ")}>
-                <Link href="/" className={[navbar.header_link, logoPositionClass].join(" ")}>
+                <Link href="/portmolio" className={[navbar.header_link, logoPositionClass].join(" ")}>
                     <div className={[navbar.header_logo_div, logoPositionClass].join(" ")}>
                         <p style={{color:text_color}} className={navbar.text}>{text}</p>                        
                     </div>

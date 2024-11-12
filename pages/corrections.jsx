@@ -18,7 +18,7 @@ export default function Corrections() {
         <NavBar 
           text="PORTMOLIO - Quiz Corrections" 
           extra_additions={
-            <BackArrowButton href={"/"}/>
+            <BackArrowButton href={"/portmolio"}/>
           }
         />
         <div className="pageContent">

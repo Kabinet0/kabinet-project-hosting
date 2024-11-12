@@ -186,6 +186,23 @@ p {
   background-color: white; */
 }
 
+.spaceTitle {
+  text-align: center;
+  color: var(--c2);
+  font-size: 48px;
+}
+
+.spaceTitle span {
+  color: var(--c1);
+}
+
+.lineSpacer {
+  background:var(--c1);
+  width: 75%;
+  height: 4px;
+  border-radius: 5px;
+}
+
 .paragraphHeader {
   color:white;
 }

@@ -17,7 +17,7 @@ export default function Test() {
         <NavBar 
           text="PORTMOLIO - Portmolio Test" 
           extra_additions={
-            <BackArrowButton href={"/"}/>
+            <BackArrowButton href={"/portmolio"}/>
           }
         />
         <div className="pageContent">

@@ -19,7 +19,7 @@ export default function Applications() {
         <NavBar 
           text="PORTMOLIO - Applications" 
           extra_additions={
-            <BackArrowButton href={"/"}/>
+            <BackArrowButton href={"/portmolio"}/>
           }
         />
         <div className="pageContent">

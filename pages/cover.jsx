@@ -18,7 +18,7 @@ export default function Lab() {
         <NavBar 
           text="PORTMOLIO - Cover Letter"
           extra_additions={
-            <BackArrowButton href={"/"}/>
+            <BackArrowButton href={"/portmolio"}/>
           }
         />
         <div className="pageContent">
