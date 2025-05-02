@@ -1,3 +1,7 @@
+## Project Hosting 
+
+Acts as a subdomain of KSS Directory, and gives me a place to host websites for school / personal projects. Currently only hosts a single chemistry project written in a single day. The code quality was an afterthought by virtue of how fast it was made, and it is not particularly well organized. 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
